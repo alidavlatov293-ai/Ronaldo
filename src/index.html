@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KFC Redesign Page</title>
+  <link rel="stylesheet" href="./output.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body class="bg-[#F8F6EF] font-sans antialiased text-gray-800">
+
+  <header class="bg-[#E43925] text-white">
+    <nav class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="text-3xl font-black italic tracking-wider">KFC</div>
+      <div class="flex items-center space-x-8 text-sm font-semibold tracking-wide">
+        <a href="#" class="hover:opacity-80">ABOUT US</a>
+        <a href="#" class="hover:opacity-80">FIND US</a>
+        <a href="#" class="hover:opacity-80">ALL CAMPAIGNS</a>
+      </div>
+      <div class="flex items-center space-x-4">
+        <button class="w-9 h-9 bg-white text-[#E43925] rounded-full flex items-center justify-center shadow">
+          <i class="fa-regular fa-user"></i>
+        </button>
+        <button class="relative w-9 h-9 bg-white text-[#E43925] rounded-full flex items-center justify-center shadow">
+          <i class="fa-solid fa-basket-shopping"></i>
+          <span class="absolute -top-1 -right-1 bg-black text-white text-[10px] w-4 h-4 rounded-full flex items-center justify-center">2</span>
+        </button>
+      </div>
+    </nav>
+    <div class="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-2 gap-8 items-center relative">
+      <div>
+        <h1 class="text-4xl md:text-6xl font-black tracking-tight leading-none mb-6">
+          JAGONYA AYAM<br />BUCKET MENU<br />CAMPAIGN
+        </h1>
+        <p class="text-sm opacity-90 leading-relaxed max-w-md mb-8">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna id ut velit convallis nec sit felis. Non non sagittis aenean enim tellus erat semper. Enim a eros urna aliquam, tempor, tortor.
+        </p>
+        <button class="border-2 border-white text-white font-bold px-8 py-3 rounded-full hover:bg-white hover:text-[#E43925] transition">
+          ORDER NOW
+        </button>
+        <div class="flex space-x-2 mt-12">
+          <span class="w-6 h-2 bg-white rounded-full"></span>
+          <span class="w-2 h-2 bg-white/50 rounded-full"></span>
+          <span class="w-2 h-2 bg-white/50 rounded-full"></span>
+          <span class="w-2 h-2 bg-white/50 rounded-full"></span>
+        </div>
+      </div>
+
+    
+      <div class="relative flex justify-center">
+        <img src="./Group 4 (1).png" alt="KFC Bucket" class="w-full max-w-md object-contain" />
+      </div>
+    </div>
+  </header>
+  <section class="relative max-w-6xl mx-auto px-6 -mt-6">
+
+    <div class="flex justify-center mb-6">
+      <span class="bg-[#F3C242] text-gray-900 font-bold text-xs px-10 py-2 rounded-t-lg shadow-md uppercase tracking-wider">
+        MENU
+      </span>
+    </div>
+
+    <!-- Carousel Items -->
+    <div class="bg-white rounded-xl p-6 shadow-md flex items-center justify-between gap-4 overflow-x-auto">
+      <button class="text-gray-400 hover:text-gray-700 text-lg px-2"><i class="fa-solid fa-chevron-left"></i></button>
+
+      <div class="flex space-x-6 items-center text-center">
+       
+        <div class="] p-2 rounded-lg min-w-\[120px\]">
+          <img src="./image 11.png" alt="9 Pcs Wings" class="w-20 h-20 mx-auto object-contain mb-2"/>
+          <p class="text-[10px] font-bold text-gray-800 uppercase">9 PCS WINGS BUCKET</p>
+        </div>
+       
+        <div class="min-w-\[120px\]">
+          <img src="./image 12.png" alt="Super Family" class="w-20 h-20 mx-auto object-contain mb-2"/>
+          <p class="text-[10px] font-semibold text-gray-500 uppercase">SUPER FAMILY HCC</p>
+        </div>
+        
+        <div class="min-w-30">
+          <img src="./image 13.png" alt="Wings Bucket" class="w-20 h-20 mx-auto object-contain mb-2"/>
+          <p class="text-[10px] font-semibold text-gray-500 uppercase">WINGS BUCKET</p>
+        </div>
+       
+        <div class="min-w-\[120px\]">
+          <img src="./image 14.png" alt="Winger Combo" class="w-20 h-20 mx-auto object-contain mb-2"/>
+          <p class="text-[10px] font-semibold text-gray-500 uppercase">WINGER COMBO BBQ</p>
+        </div>
+        <!-- Item 5 -->
+        <div class="min-w-\[120px\]">
+          <img src="./image 15.png" alt="Snack Bucket" class="w-20 h-20 mx-auto object-contain mb-2"/>
+          <p class="text-[10px] font-semibold text-gray-500 uppercase">SNACK BUCKET 1</p>
+        </div>
+        <!-- Item 6 -->
+        <div class="min-w-\[120px\]">
+          <img src="./image 16.png" alt="Wings Bucket 2" class="w-20 h-20 mx-auto object-contain mb-2"/>
+          <p class="text-[10px] font-semibold text-gray-500 uppercase">WINGS BUCKET</p>
+        </div>
+      </div>
+
+      <button class="text-gray-400 hover:text-gray-700 text-lg px-2"><i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+  </section>
+
+  <!-- ================= OFFERS & COMBOS (Сурати 2) ================= -->
+  <section class="max-w-6xl mx-auto px-6 py-16">
+    <!-- Row 1: 3 Cards -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+      
+      <!-- Card 1 -->
+      <div class="bg-white rounded-2xl p-6 shadow-sm relative overflow-hidden flex flex-col justify-between min-h-\[200px\]">
+        <div>
+          <h3 class="font-black text-gray-800 text-lg leading-tight uppercase mb-1">ANY DAY<br/>OFFERS</h3>
+          <p class="text-[10px] text-gray-400 font-semibold mb-4">KRISPY BURGER</p>
+          <span class="bg-[#E43925] text-white text-xs font-bold px-4 py-1.5 rounded-full inline-block">
+            Rp. 20,999
+          </span>
+        </div>
+        <img src="./image 17.png"  alt="Burger" class="absolute -right-2 bottom-15 w-36 object-contain" />
+        <span class="absolute top-3 right-3 bg-[#E43925] text-white text-[9px] font-bold px-2 py-0.5 rounded uppercase">NEW</span>
+      </div>
+
+      <!-- Card 2 (Red featured) -->
+      <div class="bg-[#E43925] text-white rounded-2xl p-6 shadow-sm relative overflow-hidden flex flex-col justify-between min-h-\[200px\]">
+        <div>
+          <h3 class="font-black text-lg leading-tight uppercase mb-1">ALA KARTE<br/>SPECIAL</h3>
+          <p class="text-[10px] opacity-80 font-semibold mb-4">KOLONEL YAKINIKU</p>
+          <span class="bg-[#F3C242] text-gray-900 text-xs font-bold px-4 py-1.5 rounded-full inline-block">
+            Rp. 35,999
+          </span>
+        </div>
+        <img src="./image 18.png" alt="Bento" class="absolute -right-4 -bottom--1 w-40 object-contain" />
+      </div>
+
+      <!-- Card 3 -->
+      <div class="bg-white rounded-2xl p-6 shadow-sm relative overflow-hidden flex flex-col justify-between min-h-\[200px\]">
+        <div>
+          <h3 class="font-black text-gray-800 text-lg leading-tight uppercase mb-1">SPECIAL<br/>COMBO BOX</h3>
+          <p class="text-[10px] text-gray-400 font-semibold mb-4">KRISPY BURGER</p>
+          <span class="bg-[#E43925] text-white text-xs font-bold px-4 py-1.5 rounded-full inline-block">
+            Rp. 55,999
+          </span>
+        </div>
+        <img src="./image 19.png" alt="Combo Box" class="absolute -right-2 -bottom--4 w-40 object-contain" />
+        <span class="absolute top-3 right-3 bg-[#E43925] text-white text-[9px] font-bold px-2 py-0.5 rounded uppercase">NEW</span>
+      </div>
+
+    </div>
+
+    <!-- Row 2: 2 Big Combo Cards -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      
+      <!-- Duo Combo -->
+      <div class="bg-white rounded-2xl p-6 shadow-sm relative overflow-hidden flex items-center justify-between min-h-\[180px\]">
+        <div class="max-w-[50%]">
+          <h3 class="font-black text-gray-800 text-lg leading-tight uppercase mb-1">SPECIAL COMBO<br/>DUOS</h3>
+          <p class="text-[10px] text-gray-400 font-semibold mb-3">MAKAN BARENG SAMA SI DIA CUMAN</p>
+          <div class="text-red-600 font-black text-2xl">
+            <span class="text-xs">Rp.</span> 50,999
+          </div>
+        </div>
+        <img src="./image 21.png" alt="Special Combo Duos" class="w-48 object-contain" />
+      </div>
+
+      <!-- Family Combo -->
+      <div class="bg-white rounded-2xl p-6 shadow-sm relative overflow-hidden flex items-center justify-between min-h-\[180px\]">
+        <div class="max-w-[50%]">
+          <h3 class="font-black text-gray-800 text-lg leading-tight uppercase mb-1">SPECIAL COMBO<br/>FAMILY</h3>
+          <p class="text-[10px] text-gray-400 font-semibold mb-3">MAKAN BARENG KELUARGA</p>
+          <div class="text-red-600 font-black text-2xl">
+            <span class="text-xs">Rp.</span> 190,999
+          </div>
+        </div>
+        <img src="./image 27.png" alt="Special Combo Family" class="w-48 object-contain" />
+      </div>
+
+    </div>
+  </section>
+
+<!-- KFC MOBILE APPLICATION SECTION -->
+<section style="background-color: #E47933; color: white; padding: 40px 20px 0 20px; overflow: hidden;">
+  <div style="max-width: 1100px; margin: 0 auto; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;">
+    
+    <!-- ТАРАФИ ЧАП: ТЕЛЕФОНҲО -->
+    <div style="position: relative; width: 100%; max-width: 480px; height: 380px; display: flex; justify-content: center; align-items: flex-end;">
+      
+      <!-- Телефони 2 (дар паш) -->
+      <img 
+        src="./Screen Shot 2021-11-23 at 19.57 2.png" 
+        alt="KFC App Back" 
+        style="position: absolute; right: 100px; bottom: 0; width: 190px; z-index: 1;"
+      />
+
+      <!-- Телефони 1 (дар пеш) -->
+      <img 
+        src="./Screen Shot 2021-11-23 at 19.57 1.png" 
+        alt="KFC App Front" 
+        style="position: absolute; left: 20px; bottom: 0; width: 200px; z-index: 2;"
+      />
+
+    </div>
+
+    <!-- ТАРАФИ РОСТ: МАТН ВА КНОПКАҲО -->
+    <div style="max-width: 500px; padding-bottom: 40px;">
+      <h2 style="font-size: 38px; font-weight: 800; line-height: 1.2; margin-bottom: 30px;">
+        Now With Your Favorite<br/>Kfc Mobile Application<br/>In Your Pocket
+      </h2>
+
+      <!-- КНОПКАҲО -->
+      <div style="display: flex; gap: 15px; flex-wrap: wrap;">
+        <!-- App Store -->
+        <a href="#" style="background: black; color: white; padding: 10px 20px; border-radius: 12px; display: flex; align-items: center; gap: 10px; text-decoration: none;">
+          <i class="fa-brands fa-apple" style="font-size: 24px;"></i>
+          <div>
+            <div style="font-size: 9px; text-transform: uppercase; color: #ccc;">Download on the</div>
+            <div style="font-size: 14px; font-weight: bold;">App Store</div>
+          </div>
+        </a>
+
+        <!-- Google Play -->
+        <a href="#" style="background: black; color: white; padding: 10px 20px; border-radius: 12px; display: flex; align-items: center; gap: 10px; text-decoration: none;">
+          <i class="fa-brands fa-google-play" style="font-size: 24px;"></i>
+          <div>
+            <div style="font-size: 9px; text-transform: uppercase; color: #ccc;">GET IT ON</div>
+            <div style="font-size: 14px; font-weight: bold;">Google Play</div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+  </section>
+
+  <!-- ================= TESTIMONIALS SECTION (Сурати 3 ва 4) ================= -->
+  <section class="max-w-6xl mx-auto px-6 py-20">
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-8">
+      
+      <!-- Title -->
+      <div class="md:col-span-5">
+        <h2 class="text-3xl md:text-4xl font-black text-gray-800 mb-2">
+          Real Stories from<br/>Real Customers
+        </h2>
+        <p class="text-xs text-gray-500 font-semibold">Get inspired by these stories</p>
+      </div>
+
+      <!-- Testimonial Cards Grid -->
+      <div class="md:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-6">
+        
+        <!-- Review 1 -->
+        <div class="bg-white/80 backdrop-blur p-6 rounded-2xl shadow-sm border border-gray-100 flex flex-col justify-between">
+          <p class="text-xs text-gray-600 leading-relaxed mb-6 italic">
+            " Convallis sapien vitae amet, gravida in neque. Lorem facilisis iaculis varius tristique porttitor ante non. "
+          </p>
+          <div>
+            <h4 class="font-bold text-sm text-gray-800">Jane Cooper</h4>
+            <p class="text-[10px] text-gray-400">@janeec</p>
+          </div>
+        </div>
+
+        <!-- Review 2 -->
+        <div class="bg-white/80 backdrop-blur p-6 rounded-2xl shadow-sm border border-gray-100 flex flex-col justify-between">
+          <p class="text-xs text-gray-600 leading-relaxed mb-6 italic">
+            " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempor pellentesque a tempus sit tempor facilisi molestie. Lacus mi gravida bibendum convallis. "
+          </p>
+          <div>
+            <h4 class="font-bold text-sm text-gray-800">Floyd Miles</h4>
+            <p class="text-[10px] text-gray-400">@floydmiles</p>
+          </div>
+        </div>
+
+        <!-- Review 3 -->
+        <div class="bg-white/80 backdrop-blur p-6 rounded-2xl shadow-sm border border-gray-100 flex flex-col justify-between sm:col-span-2 sm:w-1/2">
+          <p class="text-xs text-gray-600 leading-relaxed mb-6 italic">
+            " Lacus mi gravida bibendum convallis. Felis fusce mi sollicitudin vel adipiscing dictum. "
+          </p>
+          <div>
+            <h4 class="font-bold text-sm text-gray-800">Kristin Watson</h4>
+            <p class="text-[10px] text-gray-400">@watsonkrs</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= FOOTER (Сурати 4 ва 5) ================= -->
+  <footer>
+    <!-- Red Contact Banner -->
+    <div class="bg-[#E43925] text-white py-6 px-6">
+      <div class="max-w-6xl mx-auto flex flex-wrap items-center justify-between gap-6">
+        <div class="text-3xl font-black italic tracking-wider">KFC</div>
+        
+        <div class="flex flex-wrap items-center space-x-8 text-sm font-bold">
+          <div class="flex items-center space-x-2">
+            <i class="fa-brands fa-whatsapp text-xl"></i>
+            <span>0823 -1267 - 7711</span>
+          </div>
+          <div class="flex items-center space-x-2">
+            <i class="fa-solid fa-phone text-lg"></i>
+            <span>(021) 889 - 0011</span>
+          </div>
+        </div>
+
+        <div class="flex items-center space-x-4 text-xl">
+          <a href="#" class="hover:opacity-80"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" class="hover:opacity-80"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#" class="hover:opacity-80"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Dark Navy Main Footer -->
+    <div class="bg-[#2C384A] text-white pt-16 pb-8 px-6 relative overflow-hidden">
+      <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-8 relative z-10 mb-16">
+        
+        <!-- Company Links -->
+        <div class="md:col-span-3">
+          <h4 class="font-bold text-sm mb-4">Company</h4>
+          <ul class="space-y-2 text-xs text-gray-300 font-medium">
+            <li><a href="#" class="hover:text-white">About us</a></li>
+            <li><a href="#" class="hover:text-white">Blog</a></li>
+            <li><a href="#" class="hover:text-white">Contact us</a></li>
+            <li><a href="#" class="hover:text-white">Pricing</a></li>
+            <li><a href="#" class="hover:text-white">Testimonials</a></li>
+          </ul>
+        </div>
+
+        <!-- Support Links -->
+        <div class="md:col-span-3">
+          <h4 class="font-bold text-sm mb-4">Support</h4>
+          <ul class="space-y-2 text-xs text-gray-300 font-medium">
+            <li><a href="#" class="hover:text-white">Help center</a></li>
+            <li><a href="#" class="hover:text-white">Terms of service</a></li>
+            <li><a href="#" class="hover:text-white">Legal</a></li>
+            <li><a href="#" class="hover:text-white">Privacy policy</a></li>
+            <li><a href="#" class="hover:text-white">Status</a></li>
+          </ul>
+        </div>
+
+        <!-- Newsletter Input -->
+        <div class="md:col-span-6 max-w-sm">
+          <h4 class="font-bold text-sm mb-4">Stay up to date</h4>
+          <div class="relative">
+            <input 
+              type="email" 
+              placeholder="Your email address" 
+              class="w-full bg-gray-600/50 text-xs text-white placeholder-gray-400 px-4 py-3 rounded-lg focus:outline-none focus:ring-1 focus:ring-red-500"
+            />
+            <button class="absolute right-3 top-1/2 -translate-y-1/2 text-gray-300 hover:text-white">
+              <i class="fa-solid fa-paper-plane text-xs"></i>
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Watermark Sanders Logo (Backdrop) -->
+      <div class="absolute right-0 bottom-0 opacity-10 pointer-events-none">
+        <img src="./image 32.png" alt="Colonel" class="w-96 object-contain" />
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="max-w-6xl mx-auto border-t border-gray-700/50 pt-6 flex flex-col md:flex-row items-center justify-between text-[11px] text-gray-400 space-y-2 md:space-y-0">
+        <p>© 2021 KFCKU. All rights reserved</p>
+        <div class="flex space-x-4">
+          <a href="#" class="hover:text-white">Terms & Conditions</a>
+          <span>|</span>
+          <a href="#" class="hover:text-white">Privacy Policy</a>
+          <span>|</span>
+          <a href="#" class="hover:text-white">Sitemap</a>
+          <span>|</span>
+          <a href="#" class="hover:text-white">Disclaimer</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
