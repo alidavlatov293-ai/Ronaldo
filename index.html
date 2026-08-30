@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rocketeer Landing Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body class="bg-[#0b0c10] text-white font-sans antialiased selection:bg-red-600 selection:text-white">
+  <section class="relative min-h-screen bg-gradient-to-b from-[#1a080c] via-[#0f0e17] to-[#12070a] flex flex-col justify-between overflow-hidden">
+    
+    <nav class="max-w-7xl mx-auto w-full px-8 py-6 flex items-center justify-between z-20">
+      <div class="text-2xl font-bold tracking-wider text-white">Rocketeer</div>
+      <div class="hidden md:flex items-center space-x-8 text-sm font-medium text-gray-300">
+        <a href="#home" class="hover:text-white transition">Home</a>
+        <a href="#about" class="hover:text-white transition">About us</a>
+        <a href="#product" class="hover:text-white transition">View Product</a>
+        <a href="#pricing" class="hover:text-white transition">Pricing</a>
+      </div>
+    </nav>
+
+    <div class="max-w-7xl mx-auto w-full px-8 py-12 grid grid-cols-1 md:grid-cols-12 gap-12 items-center z-10 my-auto">
+      
+  
+      <div class="md:col-span-7 space-y-6">
+        <h1 class="text-6xl sm:text-7xl font-light tracking-tight leading-tight">
+          The future <br />
+          <span class="font-normal">is now</span>
+        </h1>
+        <p class="text-gray-400 text-sm md:text-base max-w-md leading-relaxed font-light">
+          Rocketeer helmets is a visionary enterprise that is trying to improve your health by building modern and comfortable helmets for you.
+        </p>
+
+       =
+        <div class="pt-4">
+          <label class="block text-xs text-gray-400 mb-2">Enter your email to get the latest news</label>
+          <div class="flex flex-col sm:flex-row gap-3 max-w-md">
+            <input 
+              type="email" 
+              placeholder="Enter your email here" 
+              class="bg-[#8b2633]/30 border border-red-900/40 text-sm text-white placeholder-gray-400 px-4 py-3 rounded-lg flex-1 focus:outline-none focus:border-red-500 transition"
+            />
+            <button class="bg-[#2b88d9] hover:bg-blue-600 text-white font-medium px-6 py-3 rounded-lg text-sm transition shadow-lg">
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Image (Astronaut Helmet) -->
+      <div class="md:col-span-5 relative flex justify-center">
+        <div class="absolute inset-0 bg-red-600/20 blur-3xl rounded-full"></div>
+        <img 
+          src="./image 3.png" 
+          alt="Rocketeer Helmet" 
+          class="relative z-10 w-full max-w-md object-contain drop-shadow-[0_20px_50px_rgba(239,68,68,0.3)]"
+        />
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= 2. ABOUT US SECTION (Сурати 2) ================= -->
+  <section id="about" class="relative py-24 px-6 bg-[#632019] flex justify-center items-center overflow-hidden">
+    
+    <!-- Background Card / Container -->
+    <div class="relative max-w-4xl w-full rounded-3xl overflow-hidden shadow-2xl border border-white/10">
+      
+     
+      <img 
+        src="./Image (37).png" 
+        alt="Mars Landscape" 
+        class="w-full h-[450px] md:h-[500px] object-cover"
+      />
+
+      <!-- Overlay Dark Content Box -->
+      <div class="absolute inset-0 bg-black/50  flex flex-col justify-center items-center text-center p-8 md:p-16">
+        <h2 class="text-3xl md:text-4xl font-semibold mb-6">About us</h2>
+        <h3 class="text-lg md:text-xl font-medium text-gray-200 mb-4 max-w-xl">
+          Our mission is change the way you explore the space
+        </h3>
+        <p class="text-xs md:text-sm text-gray-300 max-w-2xl leading-relaxed font-light">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Justo eget magna fermentum iaculis eu non diam phasellus. Sagittis orci a scelerisque purus semper eget. Auctor neque vitae tempus quam pellentesque nec nam aliquam. Non curabitur gravida arcu ac tortor. Penalibus et magnis dis parturient montes. Aliquam sem fringilla ut morbi tincidunt augue. Dictumst quisque sagittis purus sit amet volutpat consequat mauris nunc. Nunc sed id semper risus in hendrent gravida rutrum. Senectus et netus et malesuada. Ornare arcu dui vivamus arcu felis. Purus semper eget duis at.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= 3. FEATURE 1: ADVANCED COMMUNICATIONS (Сурати 3) ================= -->
+  <section id="product" class="py-24 px-6 bg-gradient-to-b from-[#19090d] via-[#12070a] to-[#1a080c]">
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+      
+      <!-- Left Image Card -->
+      <div class="flex justify-center">
+        <div class="relative rounded-2xl overflow-hidden max-w-sm border border-red-500/20 shadow-2xl">
+          <img 
+            src="./Image 1.png" 
+            alt="Advanced Communications" 
+            class="w-full h-auto object-cover"
+          />
+        </div>
+      </div>
+
+    
+      <div class="space-y-6">
+        <h2 class="text-3xl md:text-4xl font-semibold">Advanced communications system</h2>
+        <p class="text-gray-400 text-sm leading-relaxed max-w-md font-light">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Justo eget magna fermentum iaculis eu non diam phasellus.
+        </p>
+        <button class="bg-[#2b88d9] hover:bg-blue-600 text-white text-sm font-medium px-6 py-2.5 rounded-lg transition shadow-md">
+          Buy now &rarr;
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= 4. FEATURE 2: VENTILATION SYSTEM (Сурати 4) ================= -->
+  <section class="py-24 px-6 bg-gradient-to-b from-[#1a080c] via-[#12070a] to-[#21090d]">
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+      
+      <!-- Left Content -->
+      <div class="space-y-6 md:order-1 order-2">
+        <h2 class="text-3xl md:text-4xl font-semibold">Improved ventilation system</h2>
+        <p class="text-gray-400 text-sm leading-relaxed max-w-md font-light">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Justo eget magna fermentum iaculis eu non diam phasellus.
+        </p>
+        <button class="bg-[#2b88d9] hover:bg-blue-600 text-white text-sm font-medium px-6 py-2.5 rounded-lg transition shadow-md">
+          Buy now &rarr;
+        </button>
+      </div>
+
+      <!-- Right Image Card -->
+      <div class="flex justify-center md:order-2 order-1">
+        <div class="relative rounded-2xl overflow-hidden max-w-sm border border-red-500/20 shadow-2xl">
+          <img 
+            src="./Image (38).png" 
+            alt="Ventilation System" 
+            class="w-full h-auto object-cover"
+          />
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= 5. PRICING & FOOTER (Сурати 5) ================= -->
+  <section id="pricing" class="relative pt-20 pb-10 px-6 bg-gradient-to-b from-[#21090d] via-[#401216] to-[#631e1c]">
+    
+    <div class="max-w-6xl mx-auto">
+      <!-- Pricing Cards Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-24">
+        
+        <!-- Basic Plan -->
+        <div class="bg-[#121319]/90 border border-white/5 rounded-2xl p-8 flex flex-col justify-between items-center text-center shadow-2xl hover:border-red-500/40 transition duration-300">
+          <div>
+            <h3 class="text-lg font-medium mb-6">Basic</h3>
+            <ul class="space-y-4 text-xs text-gray-400 mb-8 font-light">
+              <li>diam maecenas ultricies mi</li>
+              <li>semper risus in hendrerit</li>
+              <li>ultricies integer quis</li>
+              <li>vitae auctor eu augue</li>
+              <li>faucibus interdum posuere lorem</li>
+            </ul>
+          </div>
+          <div class="text-2xl md:text-3xl font-bold tracking-tight">$230</div>
+        </div>
+
+        <!-- Premium Plan -->
+        <div class="bg-[#121319]/90 border border-white/5 rounded-2xl p-8 flex flex-col justify-between items-center text-center shadow-2xl hover:border-red-500/40 transition duration-300">
+          <div>
+            <h3 class="text-lg font-medium mb-6">Premium</h3>
+            <ul class="space-y-4 text-xs text-gray-400 mb-8 font-light">
+              <li>diam maecenas ultricies mi</li>
+              <li>semper risus in hendrerit</li>
+              <li>ultricies integer quis</li>
+              <li>vitae auctor eu augue</li>
+              <li>faucibus interdum posuere lorem</li>
+            </ul>
+          </div>
+          <div class="text-2xl md:text-3xl font-bold tracking-tight">$500</div>
+        </div>
+
+        <!-- Pro Plan -->
+        <div class="bg-[#121319]/90 border border-white/5 rounded-2xl p-8 flex flex-col justify-between items-center text-center shadow-2xl hover:border-red-500/40 transition duration-300">
+          <div>
+            <h3 class="text-lg font-medium mb-6">Pro</h3>
+            <ul class="space-y-4 text-xs text-gray-400 mb-8 font-light">
+              <li>diam maecenas ultricies mi</li>
+              <li>semper risus in hendrerit</li>
+              <li>ultricies integer quis</li>
+              <li>vitae auctor eu augue</li>
+              <li>faucibus interdum posuere lorem</li>
+            </ul>
+          </div>
+          <div class="text-2xl md:text-3xl font-bold tracking-tight">$860</div>
+        </div>
+
+      </div>
+
+      <!-- Footer Bar -->
+      <footer class="flex flex-col sm:flex-row items-center justify-between border-t border-white/10 pt-6 text-xs text-gray-400">
+        <p>&copy; 2021 - Rocketeer</p>
+        <div class="flex space-x-5 text-base mt-4 sm:mt-0">
+          <a href="#" class="hover:text-white transition"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#" class="hover:text-white transition"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" class="hover:text-white transition"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </footer>
+
+    </div>
+  </section>
+
+</body>
+</html>
